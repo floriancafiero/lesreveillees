@@ -1,0 +1,187 @@
+{
+    "o:label": "Video",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": "Titre",
+            "o:alternate_comment": "Titre de la captation",
+            "o:is_required": true,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
+        },
+        {
+            "o:alternate_label": "Auteur(s) ",
+            "o:alternate_comment": "Auteur(s) de la captation",
+            "o:is_required": true,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "creator",
+            "label": "Creator"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": "Description de la captation",
+            "o:is_required": true,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "description",
+            "label": "Description"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": "Date d'enregistrement",
+            "o:is_required": true,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "date",
+            "label": "Date"
+        },
+        {
+            "o:alternate_label": "Lieu d'enregistrement",
+            "o:alternate_comment": "Lieu(x) o\u00f9 la captation a \u00e9t\u00e9 produite.",
+            "o:is_required": false,
+            "data_type_name": "valuesuggest:geonames:geonames",
+            "data_type_label": "Geonames: The GeoNames geographical database",
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "spatial",
+            "label": "Spatial Coverage"
+        },
+        {
+            "o:alternate_label": "Mots-cl\u00e9s",
+            "o:alternate_comment": "Mots cl\u00e9s associ\u00e9s \u00e0 la captation.",
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "subject",
+            "label": "Subject"
+        },
+        {
+            "o:alternate_label": "Langue(s)",
+            "o:alternate_comment": "Langue(s) utilis\u00e9es dans la captation.",
+            "o:is_required": false,
+            "data_type_name": "valuesuggest:lc:iso6392",
+            "data_type_label": "LC: ISO639-2 Languages",
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "language",
+            "label": "Language"
+        },
+        {
+            "o:alternate_label": "Support originel",
+            "o:alternate_comment": "Description physique du support de l\u2019enregistrement.",
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "medium",
+            "label": "Medium"
+        },
+        {
+            "o:alternate_label": "Identifiant",
+            "o:alternate_comment": "Identifiant p\u00e9renne de la ressource",
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "identifier",
+            "label": "Identifier"
+        },
+        {
+            "o:alternate_label": "Qualit\u00e9 du son",
+            "o:alternate_comment": "Qualit\u00e9 du son de la captation.",
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "format",
+            "label": "Format"
+        },
+        {
+            "o:alternate_label": "Licence",
+            "o:alternate_comment": "Droits li\u00e9s \u00e0 l'enregistrement;",
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "license",
+            "label": "License"
+        },
+        {
+            "o:alternate_label": "Cr\u00e9dits",
+            "o:alternate_comment": "D\u00e9tenteurs des droits sur le document.",
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "rightsHolder",
+            "label": "Rights Holder"
+        },
+        {
+            "o:alternate_label": "Documents associ\u00e9s",
+            "o:alternate_comment": "Documents associ\u00e9s au document.",
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "relation",
+            "label": "Relation"
+        },
+        {
+            "o:alternate_label": "Institution de d\u00e9p\u00f4t",
+            "o:alternate_comment": "Institution o\u00f9 l\u2019enregistrement est d\u00e9pos\u00e9.",
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "provenance",
+            "label": "Provenance"
+        },
+        {
+            "o:alternate_label": "Date de num\u00e9risation",
+            "o:alternate_comment": "Date de num\u00e9risation de la captation.",
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "temporal",
+            "label": "Temporal Coverage"
+        },
+        {
+            "o:alternate_label": "Droits d\u2019acc\u00e8s",
+            "o:alternate_comment": "Droits d\u2019acc\u00e8s \u00e0 l'enregistrement.",
+            "o:is_required": false,
+            "data_type_name": null,
+            "data_type_label": null,
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "accessRights",
+            "label": "Access Rights"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/dcmitype\/",
+        "vocabulary_label": "Dublin Core Type",
+        "local_name": "MovingImage",
+        "label": "Moving Image"
+    }
+}
